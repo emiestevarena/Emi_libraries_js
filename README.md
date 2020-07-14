@@ -1,2 +1,1 @@
-# Henry
-Trying a new full stack program
+Will be uploading stuff on algorithms
