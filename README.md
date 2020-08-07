@@ -5,3 +5,8 @@ Currently in Javascript
 a.- a1 > a2
 b.- a1 < a2 with shift and push methods 
 2.- Number Center Algorithm
+3.- M/N combination
+4.- Euclides algorithm
+5.- Search algorithm
+6.- Binary sum
+7.- Merge sort
