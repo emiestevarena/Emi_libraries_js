@@ -16,6 +16,8 @@ Currently in C
 2. Search number
 3. Merge sort
 4. Binary Sum
+5. Inversion
+6. InversionSort
 
 Currently in Java
 1. Insertion sort
