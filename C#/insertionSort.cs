@@ -9,9 +9,9 @@ namespace Emiliano
     class InsertionSort
     {
         static void Main(string[] args){
-            int[] array = { 2, 7, 4, 3, 90, 14, 23 };
+            int[] array = new int[7] { 2, 7, 4, 3, 90, 14, 23 };
             int j;
-            for (j = 1; j < array.length; j++) {
+            for (j = 1; j < 7; j++) {
                 int key = array[j];
                 int i= j-1;
                 while(i>0 && array[i]>key){
