@@ -48,4 +48,28 @@ function sort(array){
   return array;
 }
 
-console.log(sort(array2))
+console.log(sort(array2));
+
+//with sort3 recursion
+
+var array3= [9,8,7,6,5,4,3,2,1];
+
+function sort3(array,a,b,c){
+  sort2(array,a,b);
+  sort2(array,a,c);
+  sort2(array,b,c);
+  return array;
+}
+
+function callSort3(array){
+  i=0;
+  for(k=array.length-1;k>i;k--){
+    for(j=i;j<k;j++){
+      sort3(array,i,j,k);
+    }
+    i++;
+  }
+  return array;
+}
+
+console.log(callSort3(array3));
