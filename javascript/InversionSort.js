@@ -23,3 +23,29 @@ function Inversion(array){
 } 
 
 Inversion(array);
+
+//With separate functions
+
+var array2= [11,2,93,14,35,56,17,78,19];
+
+function sort2(array,a,b){
+  c=array[a];
+  d=array[b];
+  if(c>d){
+    array[a]=d;
+    array[b]=c;
+  }
+  return array;
+}
+
+function sort(array){
+  for(a=0;a<array.length;a++){
+    for (b=a+1;b<array.length;b++){
+      sort2(array,a,b);
+      console.log(array,a,b);
+    }
+  }
+  return array;
+}
+
+console.log(sort(array2))
