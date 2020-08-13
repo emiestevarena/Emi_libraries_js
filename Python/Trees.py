@@ -1,4 +1,4 @@
-miLista2=[300,100,30,20,18,10,9,7,5]  
+miLista2=[300,15,30,20,37,10,4,7,50]  
 
 def sort2(lista,a,b):
   c=lista[b]
@@ -57,17 +57,15 @@ sort3(miLista,6,13,14) #7
 print(miLista[:],"7")
 sort3(miLista,0,10,13) #8
 print(miLista[:],"8")
-sort3(miLista,8,10,12) #9
+sort3(miLista,1,10,12) #9
 print(miLista[:],"9")
-sort3(miLista,1,10,11) #10
+sort3(miLista,1,8,11) #10
 print(miLista[:],"10")
 sort3(miLista,2,8,9) #11
 print(miLista[:],"11")
-sort3(miLista,2,3,6) #12
+sort3(miLista,0,3,6) #12
 print(miLista[:],"12")
-sort3(miLista,3,4,5) #13
+sort3(miLista,1,2,5) #13
 print(miLista[:],"13")
-sort3(miLista,0,1,3) #14
+sort3(miLista,1,2,3) #14
 print(miLista[:],"14")
-sort3(miLista,0,1,2) #15
-print(miLista[:],"15")
