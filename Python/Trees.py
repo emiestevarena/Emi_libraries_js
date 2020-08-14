@@ -40,6 +40,7 @@ print(miLista2[:])
 # 13 Array Length Tree
 miLista=[15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
 
+
 print(miLista[:])
 sort3(miLista,0,1,2) #1
 print(miLista[:],"1")
@@ -55,17 +56,13 @@ sort3(miLista,5,11,12) #6
 print(miLista[:],"6")
 sort3(miLista,6,13,14) #7
 print(miLista[:],"7")
-sort3(miLista,0,10,13) #8
+sort3(miLista,1,10,13) #8
 print(miLista[:],"8")
-sort3(miLista,1,10,12) #9
+sort3(miLista,0,9,12) #9
 print(miLista[:],"9")
-sort3(miLista,1,8,11) #10
+sort3(miLista,2,8,11) #10
 print(miLista[:],"10")
-sort3(miLista,2,8,9) #11
+sort3(miLista,0,3,6) #11
 print(miLista[:],"11")
-sort3(miLista,0,3,6) #12
+sort3(miLista,2,3,5) #12
 print(miLista[:],"12")
-sort3(miLista,1,2,5) #13
-print(miLista[:],"13")
-sort3(miLista,1,2,3) #14
-print(miLista[:],"14")
