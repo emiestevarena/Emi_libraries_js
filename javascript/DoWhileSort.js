@@ -7,7 +7,7 @@ function DoWhileSort(array){
     if(l<array[i-1]){
       array[i]=array[i-1];
       array[i-1]=l;
-      j++;i=0;
+      j++;i=i-2;
     }
     i++; k++;
   }while(i<array.length);
